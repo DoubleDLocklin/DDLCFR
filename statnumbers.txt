@@ -1,0 +1,22 @@
+    frame:
+        xalign 0.5
+        yalign 0.5
+        xpadding 30
+        ypadding 30
+
+        hbox:
+            spacing 40
+            # Text Column
+            vbox:
+                spacing 10
+                text "Language" size 40
+                text "Intelligence" size 40
+                text "Fitness" size 40
+
+            # Values Column     
+            vbox:    
+                spacing 10
+                text "[language]" size 40
+                text "[intelligence]" size 40
+                text "[fitness]" size 40
+    
