@@ -390,10 +390,11 @@ screen quick_menu():
             textbutton _("Notebook"):
                 if notebook_enabled:
                     sensitive True
-                    action[ Show("notebookUI_blank", dissolve),
-                        Show("notebookUI_intelligence_value", dissolve),
-                        Show("notebookUI_language_value", dissolve),
-                        Show("notebookUI_fitness_value", dissolve) ]
+                    action[ SelectedIf(SetVariable("notebook_shown", True)),
+                            Show("notebookUI_blank", dissolve),
+                            Show("notebookUI_intelligence_value", dissolve),
+                            Show("notebookUI_language_value", dissolve),
+                            Show("notebookUI_fitness_value", dissolve) ]
                 else:
                     sensitive False
             textbutton _("Skip") action Skip()
