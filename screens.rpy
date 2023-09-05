@@ -365,15 +365,7 @@ style choice_button_text is default:
     properties gui.button_text_properties("choice_button")
     outlines []
 
-
-
-
-
-
-
 screen quick_menu():
-
-
     zorder 100
 
     if quick_menu:

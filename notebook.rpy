@@ -178,3 +178,64 @@ transform notebook_button_animation:
     subpixel True
     yoffset - 900
     easein 2.0 yoffset - 300
+
+#python early:
+#    def display_char(chara):
+#        if(chara == "Monika"):
+#            focus = _m
+#        elif(chara == "Sayori"):
+#            focus = _s
+#        elif(chara == "Natsuki"):
+#            focus = _n
+#        elif(chara == "Yuri"):
+#            focus = _y
+#        love = love_relationship + focus
+#        friendly = friendly_relationship + focus
+#        neutral = neutral_relationship + focus
+#        negative = negative_relationship + focus
+#       if(love):
+#           #display focus's sprite + text for Love
+#       if(friendly):
+#           #display focus's sprite + text for friendly
+#       if(neutral):
+#           #display focus's sprite + text for neutral
+#       if(hate):
+#           #display focus's sprite + text for hate
+
+
+
+#if(love_relationship_m):
+    #display Monika Love sprite + text 
+#elif(friendly_relationship_m):
+    #display Monika Like sprite + text
+#elif(neutral_relationship_m):
+    #display Monika Neutral sprite + text
+#else:
+    #display Monika Hate sprite + text
+
+#if(love_relationship_s):
+    #display Sayori Love sprite + text
+#elif(friendly_relationship_s):
+    #display Sayori Like sprite + text
+#elif(neutral_relationship_s):
+    #display Sayori Neutral sprite + text
+#else:
+    #display Sayori Hate sprite + text
+
+#if(love_relationship_n):
+    #display Natsuki Love sprite + text
+#elif(friendly_relationship_n):
+    #display Natsuki Like sprite + text
+##elif(neutral_relationship_n):
+    #display Natsuki Neutral sprite + text
+#else:
+    #display Natsuki Hate sprite + text
+
+#if(love_relationship_y):
+    #display Yuri Love sprite + text
+#elif(friendly_relationship_y):
+    #display Yuri Like sprite + text
+#elif(neutral_relationship_y):
+    #display Yuri Neutral sprite + text
+#else:
+    #display Natsuki Hate sprite + text
